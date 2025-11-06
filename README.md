@@ -1,6 +1,6 @@
-<h1> Welcome to SkyWalker's Restaurant </h1>
+<h1> SkyWalker's Restaurant </h1>
 
-<h2> Reserve a table </h2>
+<h2> Reserve a table ! </h2>
 
 <img width="899" height="565" alt="image" src="https://github.com/user-attachments/assets/7b7af73e-9969-4c49-ba38-914d2f95c3ee" />
 
