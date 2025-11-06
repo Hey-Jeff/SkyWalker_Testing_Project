@@ -1,0 +1,6 @@
+﻿
+CREATE PROCEDURE ObtenerEmpleados
+AS
+BEGIN
+    SELECT * FROM EMPLEADOS;
+END;

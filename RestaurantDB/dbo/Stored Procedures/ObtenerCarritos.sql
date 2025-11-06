@@ -1,0 +1,6 @@
+﻿
+CREATE PROCEDURE ObtenerCarritos
+AS
+BEGIN
+    SELECT * FROM CARRITO;
+END;

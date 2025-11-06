@@ -1,0 +1,6 @@
+﻿
+CREATE PROCEDURE ObtenerProductos
+AS
+BEGIN
+    SELECT * FROM PRODUCTOS;
+END;

@@ -1,0 +1,6 @@
+﻿
+CREATE PROCEDURE ObtenerUsuarios
+AS
+BEGIN
+    SELECT * FROM USUARIOS;
+END;
