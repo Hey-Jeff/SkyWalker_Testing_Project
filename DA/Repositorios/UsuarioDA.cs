@@ -1,5 +1,4 @@
 ﻿using System.Data;
-using System.Data.SqlClient;
 using Microsoft.Data.SqlClient;
 using Abstracciones.Interfaces.DA;
 using static System.Runtime.InteropServices.JavaScript.JSType;

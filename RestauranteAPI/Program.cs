@@ -20,6 +20,9 @@ builder.Services.AddScoped<IUsuarioDA, UsuarioDA>();
 builder.Services.AddScoped<IProductoFlujo, ProductoFlujo>();
 builder.Services.AddScoped<IProductoDA, ProductoDA>();
 
+builder.Services.AddScoped<IEmpleadoFlujo, EmpleadoFlujo>();
+builder.Services.AddScoped<IEmpleadoDA, EmpleadoDA>();
+
 builder.Services.AddScoped<iRepositorioDapper, RepositorioDapper>();
 
 

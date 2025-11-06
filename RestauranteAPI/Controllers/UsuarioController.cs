@@ -58,7 +58,7 @@ namespace RestauranteAPI.Controllers
         public async Task<IActionResult> Eliminar(Guid id)
         {
             if (!await VerificarUsuarioExiste(id))
-                return NotFound("el producto no existe");
+                return NotFound("el Usuario no existe");
 
             var resultado = await _usuarioFlujo.Eliminar(id);
             return NoContent();
