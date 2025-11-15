@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace RestauranteAPI.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class EmpleadoController : ControllerBase, iEmpleadoController
     {
         private IEmpleadoFlujo _empleadoFlujo;

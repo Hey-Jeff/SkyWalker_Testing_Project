@@ -48,7 +48,7 @@ namespace DA.Repositorios
                 string query = @"AgregarUsuario";
                 var resultadoConsulta = await _sqlConnection.ExecuteScalarAsync<Guid>(query, new
                 {
-                    IdUsuario = Guid.NewGuid(),
+                    
                     Nombre = usuario.Nombre,
                     Apellido = usuario.Apellido,
                     Email = usuario.Email,
