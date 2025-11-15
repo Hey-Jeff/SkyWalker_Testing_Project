@@ -1,14 +1,14 @@
-﻿
-using Abstracciones.Interfaces.Flujo;
+﻿using Abstracciones.Interfaces.Flujo;
+using Abstracciones.Interfaces.DA;
 using Abstracciones.Modelos;
 
 namespace Flujo
 {
     public class EmpleadoFlujo : IEmpleadoFlujo
     {
-        private readonly IEmpleadoFlujo _empleadoDA;
+        private readonly IEmpleadoDA _empleadoDA;
 
-        public EmpleadoFlujo(IEmpleadoFlujo empleadoDA)
+        public EmpleadoFlujo(IEmpleadoDA empleadoDA)
         {
             _empleadoDA = empleadoDA;
         }
@@ -39,4 +39,3 @@ namespace Flujo
         }
     }
 }
-

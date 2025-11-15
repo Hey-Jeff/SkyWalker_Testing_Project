@@ -1,13 +1,14 @@
 ﻿using Abstracciones.Interfaces.Flujo;
+using Abstracciones.Interfaces.DA;
 using Abstracciones.Modelos;
 
 namespace Flujo
 {
     public class UsuarioFlujo : IUsuarioFlujo
     {
-        private readonly IUsuarioFlujo _usuarioDA;
+        private readonly IUsuarioDA _usuarioDA;
 
-        public UsuarioFlujo(IUsuarioFlujo usuarioDA)
+        public UsuarioFlujo(IUsuarioDA usuarioDA)
         {
             _usuarioDA = usuarioDA;
         }
